@@ -1,0 +1,14 @@
+var arr = [];
+arr.push('эима');
+console.log(arr);
+console.log(arr.length);
+arr.push('весна');
+console.log(arr);
+console.log(arr.length);
+arr.push('лето');
+console.log(arr);
+console.log(arr.length);
+arr.push('осень');
+console.log(arr);
+console.log(arr.length);
+console.log(arr.indexOf('лето'));
