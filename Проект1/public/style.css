@@ -1,0 +1,141 @@
+body {
+    max-width: 1180px;
+}
+.container {
+    box-sizing: border-box;
+    max-width: 1180px;
+    background: #ffffff;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.name {
+    font-size: 13px;
+    line-height: 48px;
+    color: #9f9f9f;
+}
+h1 {
+    font-size: 43px;
+    line-height: 48px;
+    color: #404040;
+}
+.block-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1180px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.block {
+    box-sizing: border-box;
+    width: 380px;
+    height: 280px;
+    padding: 40px;
+    border: 1px solid #f2f2f2;
+}
+.technics {
+    flex: 1 0 auto;
+    box-sizing: border-box;
+    width: 380px;
+    height: 640px;
+    margin-right: 20px;
+    color: #404040;
+    font-size: 17px;
+    line-height: 48px;
+
+}
+.block:hover {
+    background: #ff8f07;
+    color: #ffffff;
+}
+.technics-types {
+    flex: 1 0 auto;
+    box-sizing: border-box;
+    width: 380px;
+    height: 360px;
+    color: #404040;
+    font-size: 17px;
+    line-height: 60px;
+}
+.link {
+    box-sizing: border-box;
+    width: 380px;
+    padding-left: 40px;
+    margin-right: 20px;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+
+}
+.link a {
+    text-decoration: none;
+    color: #404040;
+}
+.link:hover {
+    background: #ff8f07;
+    color: #ffffff;
+}
+.equipment {
+    flex: 1 0 auto;
+    box-sizing: border-box;
+    width: 380px;
+    height: 520px;
+    margin-right: 20px;
+    color: #404040;
+    font-size: 17px;
+    line-height: 48px;
+
+}
+
+.wheels {
+    flex: 1 0 auto;
+    box-sizing: border-box;
+    width: 380px;
+    height: 520px;
+    color: #404040;
+    font-size: 17px;
+    line-height: 48px;
+
+}
+
+.equipment-types {
+    flex: 1 0 auto;
+    box-sizing: border-box;
+    width: 380px;
+    height: 240px;
+    color: #404040;
+    font-size: 17px;
+    line-height: 60px;
+}
+
+.wheels-types {
+    flex: 1 0 auto;
+    box-sizing: border-box;
+    width: 380px;
+    height: 240px;
+    color: #404040;
+    font-size: 17px;
+    line-height: 60px;
+}
+.tires {
+    flex: 1 0 auto;
+    box-sizing: border-box;
+    width: 380px;
+    height: 340px;
+    color: #404040;
+    font-size: 17px;
+    line-height: 48px;
+    margin-top: 20px;
+
+}
+
+.tires-types {
+    flex: 1 0 auto;
+    box-sizing: border-box;
+    width: 380px;
+    color: #404040;
+    font-size: 17px;
+    line-height: 60px;
+}
+.text {
+    border-top: 1px solid #f7f7f7;
+}
